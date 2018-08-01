@@ -3,7 +3,6 @@ The aim of the patch is to expand the number of channel of the controller in ord
 Open the virtual midi port of your OS.
 Run the program and choose Apc as midi input and the virtual Port as output midi.
 Open Resolume (or some other software) and in preferences choose the virtual midi port as input and the Apc as output. 
-If the software as the option of clock input choose the virtual port as master to avoid any kind of noise signals.
 Edit Midi and enjoy.
 
 The patch:
