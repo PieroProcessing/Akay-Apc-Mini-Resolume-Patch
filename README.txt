@@ -3,17 +3,15 @@ The aim of the patch is to expand the number of channel of the controller in ord
 Open the virtual midi port of your OS.
 Run the program and choose Apc as midi input and the virtual Port as output midi.
 Open Resolume (or some other software) and in preferences choose the virtual midi port as input and the Apc as output. 
+If the software as the option of clock input choose the virtual port as master to avoid any kind of noise signals.
 Edit Midi and enjoy.
 
 The patch:
 1 --
-Hold the shift button and the device button to change all the 64 pads from channel 1 to channel 2 and viceversa. It works as a toggle only on the 64 pads of the controller.
+Hold the shift button and the Stop All Clips button to change all the 64 pads from channel 1 to channel 2 and viceversa. It works as a toggle only on the 64 pads of the controller.
 2 --
-Hold the shift button and press the stop all clips button to activate the fader crtl buttons and the scene launch buttons indipendently. That means each of these buttons now is on channel 9 by default. Also the fader change channel accordingly with the fader crtl buttons. if you now hold the shift button and one of these buttons you increase the channel accordingly.
-Hold the shift button and press the stop all clips button to deactivate these buttons and revert them to channel 1. Remember if you activate again the channel will be the same you left.
-3 --
-Hold the shift button and any button of the first raw of pads from the bottom of the matrix to change the channel from 1 to 8 both faders and the first seven buttons on the left.
-
+Hold the shift button and press the Faders Ctrl buttons or the Scene Launch buttons to change the channel of the fader crtl buttons or the scene launch buttons accordingly to the button pressed.  Also the faders above the fader buttons change channel accordingly.
+Hold the shift button and press the down arrow  button to deactivate the faders and fader buttons and revert them to channel 1 or hold the shift button and press the up arrow button to revert the scene launch buttons to channel 1. Remember if you press again the arrow buttons the channel of faders or scene buttons will be the same you left.
 
 that's all.
 
